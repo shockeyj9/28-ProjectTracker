@@ -1,0 +1,34 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(146, 188, 228) ;
+}
+
+header {
+    background: linear-gradient(to bottom, #1e1e67 40%, rgb(146, 188, 228) 100%);
+    text-align: center;
+    font-family: 'Mate SC', serif;
+    padding: 10px;
+    color: aliceblue;
+}
+
+header h1{
+    font-size: 50px;
+}
+
+#block {
+    background-color: rgb(184, 26, 26);
+    color: aliceblue;
+}
+
+h2{
+    background-color: #1e1e67;
+    color: aliceblue;
+    padding-left: 10px;
+}
+
+#submit{
+    color: #ffffff;
+    background-color: #1e1e67;
+    padding-left: 42%;
+    padding-right: 42%;
+}
