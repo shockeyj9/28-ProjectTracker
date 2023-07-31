@@ -1,4 +1,9 @@
 //jQuery function to house the javascript so nothing runs until all the html loads
+$(document).ready(function() {
+    var currentTime = dayjs().format('MMM D, YYYY' + " at " + 'h:ss');
+    $('#current-time').append(currentTime);
+  }
+  );
 
 $(function(){
     var projectName = '' ;
