@@ -33,14 +33,17 @@
                     <input type="text" class="form-control" id="name-input" placeholder="Project Name">
                   </div>
                   <div class="mb-3">
-                    <label for="type-input" class="form-label"></label>
-                    <input type="search" class="form-control" id="type-input" placeholder="Project Type">
+                    <select class="form-select" id="select-input" aria-label="Default select example">
+                      <option value="javascript" selected>Javascript</option>
+                      <option value="python">Python</option>
+                      <option value="jquery">jquery</option>
+                    </select>
                   </div>
                   <div class="mb-3">
                     <label for="due-date" class="form-label"></label>
                     <input type="date" class="form-control" id="due-date" placeholder="Due Date">
                   </div>
-                  <button id="submit">Submit</button>
+                  <button type="submit" id="submit">Submit</button>
                 </form>
             </article>
             <article id="input-table" class="col-8">
@@ -54,14 +57,6 @@
                       </tr>
                     </thead>
                     <tbody id="under-block">
-                      <tr> 
-                        <!-- example table row -->
-                        <th scope="row">Mark</th>
-                        <td>javascript</td>
-                        <td>7/28/23</td>
-                        <td></td>
-                      </tr>
-
                     </tbody>
                   </table>
             </article>
@@ -88,6 +83,6 @@
     href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
     />
     <script type="text/javascript" src="./assets/javascript/style.js"></script>
-
+    <script type="text/javascript" src="./assets/javascript/script.js"></script>
 </body>
 </html>
